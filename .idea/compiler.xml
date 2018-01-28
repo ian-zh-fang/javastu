@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jstu.host" />
+        <module name="jstu.rpc.client" />
+        <module name="jstu.rpc.core" />
+        <module name="jstu.rpc.server" />
+        <module name="jstu.rpc.server.interfaces" />
+        <module name="jstu.utils" />
+        <module name="jstu.web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jstu" target="1.6" />
+      <module name="jstu.host" target="1.6" />
+      <module name="jstu.rpc" target="1.6" />
+      <module name="jstu.rpc.client" target="1.6" />
+      <module name="jstu.rpc.core" target="1.6" />
+      <module name="jstu.rpc.server" target="1.6" />
+      <module name="jstu.rpc.server.interfaces" target="1.6" />
+      <module name="jstu.utils" target="1.6" />
+      <module name="jstu.web" target="1.6" />
+      <module name="rpc" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
